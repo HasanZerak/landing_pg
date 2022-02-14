@@ -1,0 +1,50 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0 16%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/**************** Introduction ********************/
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+
+.logo{
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.content{
+    flex: 1 1 auto;
+}
+
+.first_page{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.intro_image{
+    height: 75px;
+    background-color: red;
+    width: 50%;
+}
+
+.pg_intro{
+    text-align: left;
+    width: 38%;
+}
