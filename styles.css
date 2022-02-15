@@ -2,7 +2,8 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    padding: 0 16%;
+    padding: 0;
+    margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -10,11 +11,15 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 8px 0;
+    align-items: baseline;
+    padding: 16px 15%;
+    background-color: #1f2937;
 }
 
 .logo{
     font-weight: bold;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 ul{
@@ -27,6 +32,8 @@ ul{
 
 a{
     text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .content{
@@ -35,16 +42,49 @@ a{
 
 .first_page{
     display: flex;
-    flex-flow: row wrap;
+    background-color: #1f2937;
+    padding: 10em 15% 14em;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 48px;
+    color: #f9faf8;
+    margin: 0;
 }
 
 .intro_image{
-    height: 75px;
-    background-color: red;
-    width: 50%;
+    background-color: grey;
+    color: white;
+    width: 60%;
+    height: 249px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+    text-align: justify;
+}
+
+.intro_button{
+    background-color: #3882f6;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    border-color: #3882f6;
+    text-align: center;
+    color: #e5e7eb;
+    font-weight: bold;
+    padding: 8px 40px;
+    margin: 16px 0;
 }
 
 .pg_intro{
+    margin-right: 5%;
     text-align: left;
-    width: 38%;
+    width: 35%;
 }
